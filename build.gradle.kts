@@ -1,5 +1,10 @@
 plugins {
     java
+    application
+}
+
+application {
+    mainClassName = "Main"
 }
 
 group = "org.example"
@@ -7,6 +12,8 @@ version = "1.0-SNAPSHOT"
 val lwjglVersion = "3.2.3"
 val jomlVersion = "1.10.1"
 val lwjglNatives = "natives-windows"
+
+
 
 repositories {
     mavenCentral()

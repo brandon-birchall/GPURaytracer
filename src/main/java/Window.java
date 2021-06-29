@@ -145,6 +145,7 @@ public class Window {
         }
 
         currentScene = computeShader.currentScene;
+        this.getCamera().getPosition().add(5.0f, 0.0f, 0.0f);
     }
 
 
